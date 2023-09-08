@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -7,7 +5,7 @@
  *
  * Description: Positive or Negative
  *
- * return 0 (success)
+ * Return: 0 (success)
 */
 int main(void)
 {
