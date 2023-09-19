@@ -1,42 +1,24 @@
 #include "main.h"
+
 /**
- * times_table - prints the 9 times table
- * Description: prints the 9 times table
- * Return: void
+ * char *_strcpy - a function that copies the string pointed to by src
+ * @dest: copy to
+ * @src: copy from
+ * Return: string
  */
-void times_table(void)
+char *_strcpy(char *dest, char *src)
 {
-	int row, column, product, tens, ones;
+	int l = 0;
+	int x = 0;
 
-
-	for (row = 0; row <= 9; row++)
+	while (*(src + l) != '\0')
 	{
-	for (column = 0; column <= 9; column++)
+		l++;
+	}
+	for ( ; x < l ; x++)
 	{
-	product = row * column;
-	tens = product / 10;
-	ones = product % 10;
-	if (column == 0)
-	{
-	_putchar('0');
+		dest[x] = src[x];
 	}
-	else if (product < 10)
-	{
-	_putchar(',');
-	_putchar(' ');
-	_putchar(' ');
-	_putchar(ones + '0');
-	}
-	else
-	{
-
-
-		_putchar(',');
-		_putchar(' ');
-		_putchar(tens + '0');
-		_putchar(ones + '0');
-	}
-	}
-	_putchar('\n');
-	}
+	dest[l] = '\0';
+	return (dest);
 }
