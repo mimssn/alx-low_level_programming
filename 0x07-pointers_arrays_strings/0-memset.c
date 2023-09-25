@@ -2,8 +2,8 @@
 
 /**
  * _memset - function that fills memory with a constant byte
- * @b: constant char byte
- * @n: number of bytes to fill
+ * @t: constant char byte
+ * @u: number of bytes to fill
  * @s: pointers to allocated memory
  *
  * Return: pointer to memory area s
