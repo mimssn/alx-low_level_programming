@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _sqrt_recursion - returns the natural square root of a number
-* @n: number to be used
+* _sqrt_recursion - returns natural square root of a number
+* @n: number to use
 *
-* Return: the square root of n
+* Return: square root of n
 */
 
 int _sqrt_recursion(int n)
@@ -15,11 +15,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt - returns the square root of a number
- * @n: test number
+ * _sqrt - returns square root of a number
+ * @n: checked number
  * @x: squared number
  *
- * Return: the square root of n
+ * Return: square root of n
  */
 
 int _sqrt(int n, int x)
