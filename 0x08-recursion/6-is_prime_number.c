@@ -2,7 +2,6 @@
 /**
 * is_prime_number - returns true if number is prime
 *@n: number checked 
-*
 *Return: true if number is prime
 */
 int is_prime_number(int n)
